@@ -16,10 +16,10 @@ class Budget {
     }
 
 
+    //Getter/Setter
     public double getLimit() {
         return this.limit;
     }
-
     public void setLimit(double limit) {
         this.limit = limit;
     }
