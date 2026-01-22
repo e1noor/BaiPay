@@ -81,9 +81,9 @@ public class Main {
     System.out.println("Жалпы шығын: " + totalExpenses + " ₸");
 
     if (myBudget.isOverLimit(totalExpenses)) {
-      System.out.println("⚠️ ЕСКЕРТУ: Сіз бюджеттен асып кеттіңіз!");
+      System.out.println("ЕСКЕРТУ: Сіз бюджеттен асып кеттіңіз!");
     } else {
-      System.out.println("✅ КЕРЕМЕТ: Бюджет сақталды.");
+      System.out.println("КЕРЕМЕТ: Бюджет сақталды.");
     }
 
 
